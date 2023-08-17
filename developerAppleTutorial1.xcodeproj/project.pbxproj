@@ -14,6 +14,8 @@
 		8D74B8402A8CFF770002A1F6 /* developerAppleTutorial1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D74B83F2A8CFF770002A1F6 /* developerAppleTutorial1Tests.swift */; };
 		8D74B84A2A8CFF770002A1F6 /* developerAppleTutorial1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D74B8492A8CFF770002A1F6 /* developerAppleTutorial1UITests.swift */; };
 		8D74B84C2A8CFF770002A1F6 /* developerAppleTutorial1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D74B84B2A8CFF770002A1F6 /* developerAppleTutorial1UITestsLaunchTests.swift */; };
+		8D74B8592A8D01E80002A1F6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D74B8582A8D01E80002A1F6 /* CircleImage.swift */; };
+		8D74B85B2A8D02C80002A1F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D74B85A2A8D02C80002A1F6 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8D74B8452A8CFF770002A1F6 /* developerAppleTutorial1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = developerAppleTutorial1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D74B8492A8CFF770002A1F6 /* developerAppleTutorial1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = developerAppleTutorial1UITests.swift; sourceTree = "<group>"; };
 		8D74B84B2A8CFF770002A1F6 /* developerAppleTutorial1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = developerAppleTutorial1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D74B8582A8D01E80002A1F6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		8D74B85A2A8D02C80002A1F6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 		8D74B8222A8CFF750002A1F6 = {
 			isa = PBXGroup;
 			children = (
+				8D74B85A2A8D02C80002A1F6 /* MapView.swift */,
+				8D74B8582A8D01E80002A1F6 /* CircleImage.swift */,
 				8D74B82D2A8CFF750002A1F6 /* developerAppleTutorial1 */,
 				8D74B83E2A8CFF770002A1F6 /* developerAppleTutorial1Tests */,
 				8D74B8482A8CFF770002A1F6 /* developerAppleTutorial1UITests */,
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D74B8312A8CFF750002A1F6 /* ContentView.swift in Sources */,
+				8D74B85B2A8D02C80002A1F6 /* MapView.swift in Sources */,
 				8D74B82F2A8CFF750002A1F6 /* developerAppleTutorial1App.swift in Sources */,
+				8D74B8592A8D01E80002A1F6 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
